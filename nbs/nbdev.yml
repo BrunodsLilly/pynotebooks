@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "pynotebooks"
+  site-url: "https://BrunodsLilly.github.io/pynotebooks"
+  description: "Collection of notebooks for learning"
+  repo-branch: main
+  repo-url: "https://github.com/BrunodsLilly/pynotebooks"
