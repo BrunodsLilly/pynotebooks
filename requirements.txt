@@ -1,0 +1,4 @@
+fastcore
+polars
+jax
+matplotlib
