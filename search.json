@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "linear_regression.html",
+    "href": "linear_regression.html",
+    "title": "Linear Regression",
+    "section": "",
+    "text": "import jax.numpy as jnp\nfrom typing import Any, Callable\n\n\nsource\n\ncost\n\n cost (y:jax.Array, f:Callable[...,jax.Array], *params:Any)\n\nCompute the cost function for linear regression.\n\n\n\n\n\n\n\n\n\nType\nDetails\n\n\n\n\ny\nArray\nTarget values for the training examples.\n\n\nf\nCallable\nPrediction function that takes parameters and returns predictions.\n\n\nparams\nAny\n\n\n\nReturns\nfloat\nThe mean squared error cost of using the given parameters for linear regression to fit the data points.\n\n\n\n\nx_train = jnp.array([1.0, 1.7, 2.0, 2.5, 3.0, 3.2])\ny_train = jnp.array([250, 300, 480,  430,   630, 730,])\ncost(y_train, lambda x, w, b: jnp.dot(x, w) + b, x_train, 200, -100)\n\nArray(9366.667, dtype=float32)\n\n\n\nsource\n\n\nSimpleLinearRegressor\n\n SimpleLinearRegressor ()\n\nA simple linear regressor.\n\nsource\n\n\nSimpleLinearRegressor.predict\n\n SimpleLinearRegressor.predict ()\n\nRuns regression on inputs and returns an output.",
+    "crumbs": [
+      "Linear Regression"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "pynotebooks",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "pynotebooks"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "pynotebooks",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall pynotebooks in Development mode\n# make sure pynotebooks package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to pynotebooks\n$ nbdev_prepare",
+    "crumbs": [
+      "pynotebooks"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "pynotebooks",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/BrunodsLilly/pynotebooks.git\nor from conda\n$ conda install -c BrunodsLilly pynotebooks\nor from pypi\n$ pip install pynotebooks\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "pynotebooks"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "pynotebooks",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "pynotebooks"
+    ]
+  }
+]
