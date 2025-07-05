@@ -5,4 +5,10 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://BrunodsLilly.github.io',
                 'git_url': 'https://github.com/BrunodsLilly/pynotebooks',
                 'lib_path': 'pynotebooks'},
-  'syms': {'pynotebooks.core': {'pynotebooks.core.foo': ('core.html#foo', 'pynotebooks/core.py')}}}
+  'syms': { 'pynotebooks.core': {'pynotebooks.core.foo': ('core.html#foo', 'pynotebooks/core.py')},
+            'pynotebooks.linear_regression': { 'pynotebooks.linear_regression.SimpleLinearRegressor': ( 'linear_regression.html#simplelinearregressor',
+                                                                                                        'pynotebooks/linear_regression.py'),
+                                               'pynotebooks.linear_regression.SimpleLinearRegressor.predict': ( 'linear_regression.html#simplelinearregressor.predict',
+                                                                                                                'pynotebooks/linear_regression.py'),
+                                               'pynotebooks.linear_regression.cost': ( 'linear_regression.html#cost',
+                                                                                       'pynotebooks/linear_regression.py')}}}

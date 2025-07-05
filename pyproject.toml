@@ -1,9 +1,9 @@
 [project]
-name = "pynotebooks"
+name="pynotebooks"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python=">=3.9"
 dependencies = [
     "fastcore>=1.8.4",
     "jax>=0.6.2",
@@ -19,4 +19,5 @@ build-backend = "setuptools.build_meta"
 [dependency-groups]
 dev = [
     "jupyterlab>=4.4.4",
+    "jupyterlab-quarto>=0.3.5",
 ]
